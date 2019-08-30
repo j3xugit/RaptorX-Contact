@@ -11,4 +11,6 @@ The package contains core code used to produce results in the following papers.
 
 Some auxiliary code will be gradually uploaded.
 
+The testsets used in the PLoS CB paper and the multiple sequence alignment for the CASP13 hard targets are available at http://raptorx.uchicago.edu/download/
+
 Contact: Jinbo Xu, jinboxu@gmail.com
