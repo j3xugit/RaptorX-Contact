@@ -1,6 +1,5 @@
 # RaptorX-Contact: a software package for protein contact and distance prediction by deep residual neural network. 
-This package has source code of the deep learning method developed by Xu group for protein contact/distance prediction and distance-based folding. The code and documentation will be improved gradually. Anaconda and Theano shall be installed in order to use this package.
-Contact: Jinbo Xu, jinboxu@gmail.com
+This package has source code of the deep learning method developed by Xu group for protein contact/distance prediction and distance-based folding. The code and documentation will be improved gradually. Anaconda, Theano and possibly BioPython shall be installed in order to use this package.
 
 The package contains core code used to produce results in the following papers. 
 1) Analysis of distance-based protein structure prediction by deep learning in CASP13. PROTEINS, 2019
@@ -11,3 +10,5 @@ The package contains core code used to produce results in the following papers.
 6) Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model. PLoS CB, Jan 2017
 
 Some auxiliary code will be gradually uploaded.
+
+Contact: Jinbo Xu, jinboxu@gmail.com
