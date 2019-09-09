@@ -11,6 +11,7 @@ The package contains core code used to produce results in the following papers.
 
 Some auxiliary code will be gradually uploaded.
 
-The testsets used in the PLoS CB paper and the multiple sequence alignment for the CASP13 hard targets are available at http://raptorx.uchicago.edu/download/
+The testsets used in the PLoS CB paper and the multiple sequence alignment for the CASP13 hard targets are available at http://raptorx.uchicago.edu/download/ . Two deep models are also available for download at the same site. After login this site,
+please check out 0README.data4contactPrediction.txt and 0README.models4ContactDistancePrediction.txt for the download of data and models.
 
 Contact: Jinbo Xu, jinboxu@gmail.com
