@@ -24,5 +24,4 @@ Here are a list of input features needed for our deep models:
 
 For a single protein, its features are deposited as a Python dict(). Please check out our testdata for the dict() keywords and exact format. In addition, protein name and sequence length are also needed in the dict(), although they are not used as input features. The input features of all test proteins are saved as a list of dict() and then packed as a cPickle file. 
 
-
 Contact: Jinbo Xu, jinboxu@gmail.com
