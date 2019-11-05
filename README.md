@@ -16,7 +16,7 @@ please check out 0README.data4contactPrediction.txt and 0README.models4ContactDi
 
 Here are a list of input features needed for our deep models: 
 1) primary sequence represented as a string;
-2) position-specific scoring matrix represented as a L*20 matrix; 
+2) position-specific scoring matrix represented as a L*20 matrix. You may generate multiple sequence alignment by PSI-BLAST/HHblits/Jackhmmer and then construct such a matrix.
 3) predicted secondary structure confidence score represented as a L*3 matrix. Please make sure that the order of Helix, Beta and Loop is consistent with our example data. You may determine our order by comparing the confidence scores.
 4) predicted solvent accessibility score represented as a L*3 matrix. Again please make sure that the order of the three labels is consistent with our example data. 
 5) normalized CCMpred matrix (L*L), i.e., the original CCMpred output matrix normalized by its mean and standard deviation;
