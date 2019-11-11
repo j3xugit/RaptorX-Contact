@@ -19,10 +19,6 @@ SS8Letter2Code = {'H':0, 'G':1, 'I':2, 'E':3, 'B':4, 'T':5, 'S':6, 'L':7, 'C':7 
 ## secondary structure conversion, note here HELIX, BETA and LOOP correspond to 1, 2 and 0, respectively
 SS8Letter2SS3Code = {'H':0, 'G':0, 'I':0, 'E':1, 'B':1, 'T':2, 'S':2, 'L':2, 'C':2 }
 
-## in the tgt file, the predicted 3-state secondary structure is arranged in the order of H, E, and L
-## in the tgt file, the predicted 8-state secondary structure is arranged in the order of H     G     I     E     B     T     S     L
-## in the tgt file, the predicted solvent accessibility is arranged in the order of Bury   Medium  Exposed
-
 AA3LetterCode=['ALA', 'ARG', 'ASN', 'ASP', 'ASX', 'CYS', 'GLU', 'GLN', 'GLX', 'GLY', 'HIS', 'ILE', 'LEU', 'LYS', 'MET', 'PHE', 'PRO', 'SER', 'THR', 'TRY', 'TYR', 'VAL']
 AA1LetterCode=['A',   'R',   'N',   'D',   'B',   'C',   'E',   'Q',   'Z',   'G',   'H',   'I',   'L',   'K',   'M',   'F',   'P',   'S',   'T',   'W',   'Y',   'V'  ]
 
