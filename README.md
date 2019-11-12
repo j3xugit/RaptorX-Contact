@@ -3,7 +3,7 @@ This package has source code of the deep learning method developed by Xu group f
 
 The package contains core code used to produce results in the following papers. 
 1) Analysis of distance-based protein structure prediction by deep learning in CASP13. PROTEINS, 2019
-2) Distance-based protein folding powered by deep learning. PNAS, August 2019
+2) Distance-based protein folding powered by deep learning. PNAS, August 2019. An 2-page abstract also appeared at RECOMB2019 in April 2019.
 3) ComplexContact: a web server for inter-protein contact prediction using deep learning. NAR, May 2018
 4) Analysis of deep learning methods for blind protein contact prediction in CASP12. PROTEINS, March 2018
 5) Folding Membrane Proteins by Deep Transfer Learning. Cell Systems, September 2017
