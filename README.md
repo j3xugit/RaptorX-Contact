@@ -7,7 +7,7 @@ The package contains core code used to produce results in the following papers.
 3) ComplexContact: a web server for inter-protein contact prediction using deep learning. NAR, May 2018
 4) Analysis of deep learning methods for blind protein contact prediction in CASP12. PROTEINS, March 2018
 5) Folding Membrane Proteins by Deep Transfer Learning. Cell Systems, September 2017
-6) Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model. PLoS CB, Jan 2017
+6) Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model. PLoS CB, Jan 2017. An early version was first posted to bioRxiv and arXiv in September 2016. See https://www.biorxiv.org/content/10.1101/073239v8 and https://arxiv.org/abs/1609.00680 .
 
 Some auxiliary code will be gradually uploaded.
 
