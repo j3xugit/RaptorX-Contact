@@ -14,7 +14,7 @@ The package contains core code used to produce results in the following papers.
 
 6) Folding Membrane Proteins by Deep Transfer Learning. Cell Systems, September 2017. The first paper shows in details that deep ResNet works well on membrane proteins even if trained without any membrane proteins.
 
-7) Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model. PLoS CB, Jan 2017. An early version was first posted to bioRxiv and arXiv in September 2016. See https://www.biorxiv.org/content/10.1101/073239v8 and https://arxiv.org/abs/1609.00680. This is the first paper showing that deep convolutional residual neural network may significantly improve protein contact prediction. This paper also shows that contacts predicted by deep ResNet can fold very large proteins without detectable homology in PDB. 
+7) Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model. PLoS CB, Jan 2017. An early version was first posted to bioRxiv and arXiv in September 2016. See https://www.biorxiv.org/content/10.1101/073239v8 and https://arxiv.org/abs/1609.00680. This is the first paper showing that deep convolutional residual neural network may significantly improve protein contact prediction, and that contacts predicted by deep ResNet may be used to fold large proteins without detectable homology in PDB. 
 
 There is also a video of my keynote talk at ISMB 3DSIG in the summer of 2019 at https://www.youtube.com/watch?v=qAm22TRtgOU about deep learning for protein structure prediction.
 
