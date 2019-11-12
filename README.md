@@ -2,12 +2,18 @@
 This package has source code of the deep learning method developed by Xu group for protein contact/distance prediction and distance-based folding. The code and documentation will be improved gradually. Anaconda (for Python 2.7), Theano and possibly BioPython shall be installed in order to use this package.
 
 The package contains core code used to produce results in the following papers. 
-1) Analysis of distance-based protein structure prediction by deep learning in CASP13. PROTEINS, 2019
-2) Distance-based protein folding powered by deep learning. PNAS, August 2019. A 2-page abstract also appeared at RECOMB2019 in April 2019.
-3) Protein threading using residue co-variation and deep learning, ISMB and Bioinformatics, July 2018. This paper describes how to extend deep learning to distance prediction and then apply it to greatly improve protein alignment.
-4) ComplexContact: a web server for inter-protein contact prediction using deep learning. NAR, May 2018
+1) Analysis of distance-based protein structure prediction by deep learning in CASP13. PROTEINS, 2019.
+
+2) Distance-based protein folding powered by deep learning. PNAS, August 2019. A 2-page abstract also appeared at RECOMB2019 in April 2019. This paper describes in details that distance predicted by deep ResNet may result in much better folding than contacts predicted by the same deep ResNet.
+
+3) Protein threading using residue co-variation and deep learning, ISMB and Bioinformatics, July 2018. The first paper shows how to extend deep learning to distance prediction and then apply it to greatly improve protein alignment/threading.
+
+4) ComplexContact: a web server for inter-protein contact prediction using deep learning. NAR, May 2018. The first paper shows that deep ResNet trained on single-chain proteins works well in predicting contacts between two interacting proteins.
+
 5) Analysis of deep learning methods for blind protein contact prediction in CASP12. PROTEINS, March 2018
-6) Folding Membrane Proteins by Deep Transfer Learning. Cell Systems, September 2017. This paper shows in details that deep ResNet works well on membrane proteins even if trained without any membrane proteins.
+
+6) Folding Membrane Proteins by Deep Transfer Learning. Cell Systems, September 2017. The first paper shows in details that deep ResNet works well on membrane proteins even if trained without any membrane proteins.
+
 7) Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model. PLoS CB, Jan 2017. An early version was first posted to bioRxiv and arXiv in September 2016. See https://www.biorxiv.org/content/10.1101/073239v8 and https://arxiv.org/abs/1609.00680. This is the first paper showing that deep convolutional residual neural network may significantly improve protein contact prediction. This paper also shows that contacts predicted by deep ResNet can fold very large proteins without detectable homology in PDB. 
 
 Some auxiliary code will be gradually uploaded.
