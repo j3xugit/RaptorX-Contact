@@ -287,7 +287,7 @@ def load_hmm(hmmfile):
 			## read in the sequence in the following lines
 			start = i+1
 			end = i+1
-			while not content[end].startswith('>'):
+			while (not content[end].startswith('>')) and (not content[end].startswith('#')):
 				end += 1
 
 			## at this point, content[end] shall start with >
