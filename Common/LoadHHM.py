@@ -221,7 +221,7 @@ def load_hmm(hmmfile):
 	protein = {}
 
 	## get sequence name
-	if not content[1].startswith('NAME'):
+	if not content[1].startswith('NAME '):
 		print 'ERROR: the protein name shall appear at the second line of profileHMM file: ', hmmfile
 		exit(1)
 	fields = content[1].split()
@@ -237,17 +237,17 @@ def load_hmm(hmmfile):
 			i += 1
 			continue
 
-		if row.startswith('DATE'):
+		if row.startswith('DATE '):
 			protein['DateCreated'] = row[6:]
 			i += 1
 			continue
 
-		if row.startswith('NEFF'):
+		if row.startswith('NEFF '):
 			protein['NEFF'] = np.float32(row.split()[1])
 			i += 1
 			continue
 
-		if row.startswith('LENG'):
+		if row.startswith('LENG '):
 			protein['length'] = np.int32(row.split()[1])
 			i += 1
 			continue
