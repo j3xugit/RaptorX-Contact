@@ -1,4 +1,8 @@
 # RaptorX-Contact: a software package for protein contact and distance prediction by deep residual neural network. 
+
+A new version of the software is now available at https://github.com/j3xugit/RaptorX-3DModeling .
+
+
 This package has source code of the deep convolutional residual neural network method initiated by me for protein contact/distance prediction and distance-based folding. The code and documentation will be improved gradually. Anaconda (for Python 2.7), Theano and possibly BioPython shall be installed in order to use this package. Mr. Hung Nguyen has improved my code so that it works with Python 3. See his revision at https://github.com/nd-hung/DL4DistancePrediction2 .
 
 The package contains core code used to produce results in the following papers. 
